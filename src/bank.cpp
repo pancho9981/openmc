@@ -19,6 +19,7 @@ vector<SourceSite> source_bank;
 
 SharedArray<SourceSite> surf_source_bank;
 
+//hola comentario
 // The fission bank is allocated as a SharedArray, rather than a vector, as it
 // will be shared by all threads in the simulation. It will be allocated to a
 // fixed maximum capacity in the init_fission_bank() function. Then, Elements
